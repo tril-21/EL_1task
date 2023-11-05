@@ -7,7 +7,7 @@ int main(){
 	bool s=false;
 	int sizeNumber=8*sizeof(a);
 	while(1){
-		if(sizeNumber==0)
+		if(sizeNumber==1)
 			break;
 		if(a&0x80000000){
 			printf("1");
